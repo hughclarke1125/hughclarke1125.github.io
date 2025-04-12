@@ -1,39 +1,67 @@
+<!-- Brutalist Portfolio Website for BRUTAL COVERS - THANK YOU PAGE -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Thank You!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You – BRUTAL COVERS</title>
   <style>
     body {
+      margin: 0;
       font-family: monospace;
       background: #fff;
       color: #000;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      text-align: center;
-      padding: 2rem;
+      min-height: 100vh;
     }
-    h1 {
-      font-size: 3rem;
+    header, footer {
+      background: #000;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
       text-transform: uppercase;
     }
-    p {
-      font-size: 1.2rem;
+    .main {
+      flex: 1;
+      padding: 4rem 2rem;
+      text-align: center;
     }
-    a {
+    .main h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .main p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    a.button {
+      display: inline-block;
       margin-top: 2rem;
-      text-decoration: underline;
-      color: #000;
+      padding: 1rem 2rem;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid #000;
+      text-transform: uppercase;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Thank You!</h1>
-  <p>Your message has been sent. We’ll be in touch soon.</p>
-  <a href="index.html">Back to site</a>
+  <header>
+    <h1>BRUTAL COVERS</h1>
+  </header>
+
+  <main class="main">
+    <h1>✅ Thank You!</h1>
+    <p>Your message has been sent successfully. We'll be in touch shortly. In the meantime, feel free to browse the site or send us another message if you forgot something.</p>
+    <a class="button" href="https://hughclarke1125.github.io">Back to Home</a>
+  </main>
+
+  <footer>
+    &copy; 2025 BRUTAL COVERS – Loud Art for Physical Media
+  </footer>
 </body>
 </html>
